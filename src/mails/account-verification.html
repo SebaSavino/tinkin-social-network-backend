@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verificar cuenta</title>
+
+  <style>
+    h1,
+    h3,
+    p {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    footer>p {
+      opacity: 50%;
+      text-align: center;
+    }
+
+    hr {
+      opacity: 20%;
+    }
+
+    .brand {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background-image: linear-gradient(to right, #9FC131, #DBF227);
+      border-radius: 5%;
+      padding: .3% .6%;
+      color: #042940;
+    }
+
+    .warning {
+      color: #730202;
+      font-size: small;
+      margin-top: 10%;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1 align="center">Hola {{name}}, ¿todo bien?</h1>
+    <hr>
+
+    <h3>Te quiero dar la bienvenida a <span class='brand'>Tinkin</span></h3>
+    <p>Para comenzar a utilizar tu cuenta, debes verificarla con el siguiente <a href="{{redirect}}">aqu&iacute;</a></p>
+
+    <p class='warning'>Si no fuiste vos quien creo la cuenta, solo ignora este mail</p>
+  </main>
+  <hr>
+  <footer>
+    <p>Desarrollado por @SavinoSeba</p>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+{
+  "body": {
+    "lastName": "Savino",
+    "firstName": "Sebastian",
+    "userName": "Savi",
+    "email": "sebastian.savino2020@gmail.com",
+    "gender": "M",
+    "password": "simon",
+    "birthdate": {
+      "day": 10,
+      "month": 12,
+      "year": 1998
+    }
+  }
+}
